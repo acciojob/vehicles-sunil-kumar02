@@ -6,7 +6,8 @@ public class F1 extends Car {
 
 
     public F1(String name, boolean isManual) {
-        super(name,4,"f1",2,6,isManual,2,2);
+
+        super(name,4,2,6,isManual,"sport",2);
 //
 //        // use arbitarry values for parameters which are not mentioned.
 //        super(name, wheels: 4, doors: 2, gears:7, isManual, type: "Sports",seats: 2 );
